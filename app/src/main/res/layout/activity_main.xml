@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/main_page_container"
+        android:layout_width="match_parent"
+        android:background="#EFEEEE"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp" />
+
+    <!-- 一个在底部展现的 NavigationView，可以满足一般的底部导航栏 -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@drawable/navigation_bar_color"
+        app:itemTextColor="@drawable/navigation_bar_color"
+        app:menu="@menu/my_navigation_items" />
+
+</RelativeLayout>

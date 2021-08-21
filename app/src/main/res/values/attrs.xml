@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoLoopViewPager">
+        <attr name="MyDuration" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowTextStyle">
+        <attr name="horizontalSpace" format="dimension" />
+        <attr name="verticalSpace" format="dimension" />
+    </declare-styleable>
+</resources>
